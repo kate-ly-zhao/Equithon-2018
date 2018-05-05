@@ -1,19 +1,49 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    /*background-image: url("earth.jpg");*/
+    background-color: antiquewhite;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .header{
-    padding: 80px; /* Padding */
-    text-align: center; /* Text alignment */
-    background: #1abc9c; /* Background colour */
-    color: white; /* Text colour */
+    /* padding: 80px; /* Padding */
+    /*text-align: center; /* Text alignment */
+    /*background: #7B68EE; /* Background colour */
+    /*color: white; /* Text colour */
 }
 
-.header h1{
-    font-size: 40px;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 50px;
+    font-family: Helvetica;
+    color: white;
 }
 
+.subcenter {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+
+    font-size: 30px;
+    font-family: Helvetica;
+    color: white;
+}
 
 /* Top navigation bar */
 .navbar {
-    overflow: hidden; /* Hide overflow */
-    background-color: #333; /* Dark background color */
+    /*overflow: hidden; /* Hide overflow */
+    /*background-color: #333; /* Dark background color */
 }
 
 /* Navigation bar links */
@@ -26,13 +56,36 @@
     text-decoration: none; /* Remove underline */
 }
 
-/*.navbar a.center {
-    float:
-}*/
 
 /* Right-aligned link */
 .navbar a.right {
-    float: right; /* Float a link to the right */
+    position: absolute;
+    top: 8px;
+    right: 16px;
+
+    font-size: 20px;
+    font-family: Helvetica;
+    color: white;
+}
+
+.navbar a.middle {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+
+    font-size: 20px;
+    font-family: Helvetica;
+    color: white;
+}
+
+.navbar a.left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+
+    font-size: 20px;
+    font-family: Helvetica;
+    color: white;
 }
 
 /* Change color on hover/mouse-over */
@@ -78,8 +131,14 @@
 }
 
 .footer{
-    padding: 20px; /* Padding */
     text-align: center; /* Center text*/
-    background: #ddd; /* Grey background */
 
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+    font-size: 20px;
+    font-family: Helvetica;
+    color: white;
 }
