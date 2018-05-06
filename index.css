@@ -3,8 +3,7 @@ body, html {
 }
 
 body {
-    /*background-image: url("earth.jpg");*/
-    background-color: antiquewhite;
+    background-image: url("earth.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,3 +141,9 @@ body {
     font-family: Helvetica;
     color: white;
 }
+
+with(document.getElementById("register").style) {
+    left: 64px;
+    top : 128px;
+}
+
