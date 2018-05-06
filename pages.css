@@ -5,9 +5,22 @@ body {
 }
 
 h2 {
+    font-family: Helvetica;
+    color: darkslategray;
+
     border-bottom: solid;
     border-bottom-color: darkslategray;
     border-bottom-width: thin;
+}
+
+h3 {
+    font-family: Helvetica;
+    color: darkslategray;
+}
+
+p {
+    font-family: Helvetica;
+    color: darkslategray;
 }
 
 .headers {
@@ -28,4 +41,29 @@ h2 {
     width: 400px;
     height: 400px;
 
+}
+
+.profile {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+.description {
+    color: grey;
+    font-size: 18px;
+}
+
+form {
+    font-family: Helvetica;
+    color: darkslategray;
+}
+
+.signupform {
+    font-family: Helvetica;
+    color: darkslategray;
 }
