@@ -8,6 +8,7 @@ function register() {
     }
 
     document.getElementById("register").innerHTML = txt;
+
 }
 
 function contact() {
