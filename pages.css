@@ -1,0 +1,31 @@
+
+body {
+    background-color: aliceblue;
+    height: 100%;
+}
+
+h2 {
+    border-bottom: solid;
+    border-bottom-color: darkslategray;
+    border-bottom-width: thin;
+}
+
+.headers {
+
+    font-size: 15px;
+    font-family: Helvetica;
+    color: darkslategray;
+}
+
+.text {
+
+    font-size: 15px;
+    font-family: Helvetica;
+    color: darkslategray;
+}
+
+.map {
+    width: 400px;
+    height: 400px;
+
+}
